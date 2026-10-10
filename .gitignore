@@ -1,0 +1,30 @@
+# Temporary/editor files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Virtual machines and captures: review before intentionally adding
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.pcap
+*.pcapng
+
+# Potentially sensitive files
+.env
+*.key
+*.pem
+credentials*
+secrets*
+
+# Keep empty evidence folders in Git
+!screenshots/README.md
+!evidence/README.md
+!commands/README.md
+!docs/README.md
+!notes/README.md
